@@ -1,18 +1,19 @@
 <template lang="html">
-    <div :class="$style.home">
-        <h1>Home</h1>
+    <div>
+       <top-header/>
     </div>
 </template>
 
 <script>
+import TopHeader from '../public/header'
 export default {
+  components:{
+    TopHeader
+  }
 }
 </script>
 
-<style lang="scss" module>
+<style lang="scss">
   @import '../../css/reset.scss';
-  .home{
-    color: red;
-    font-size: 80px;
-  }
+
 </style>
