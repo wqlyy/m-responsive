@@ -20,6 +20,10 @@ export default {
     swiperSlide
   },
   props:{
+    cname:{
+      type:String,
+      default:''
+    },
     options:{
       type:Object,
       default(){

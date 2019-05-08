@@ -1,14 +1,18 @@
 <template lang="html">
     <div>
        <top-header/>
+       <HomeSilder/>
     </div>
 </template>
 
 <script>
 import TopHeader from '../public/header'
+import HomeSilder from './HSlider'
 export default {
+  name:"home",
   components:{
-    TopHeader
+    TopHeader,
+    HomeSilder
   }
 }
 </script>
