@@ -7,11 +7,15 @@
        <Money/>
        <Product/>
        <Life/>
+       <CommonFooter/>
+       <NavBar/>
     </div>
 </template>
 
 <script>
 import TopHeader from '../public/header'
+import CommonFooter from '../public/footer'
+import NavBar from '../public/navbar'
 import HomeSilder from './HSlider'
 import Novice from './Novice'
 import Borrow from './Borrow'
@@ -22,12 +26,14 @@ export default {
   name:"home",
   components:{
     TopHeader,
+    CommonFooter,
     HomeSilder,
     Novice,
     Borrow,
     Money,
     Product,
-    Life
+    Life,
+    NavBar
   }
 }
 </script>
