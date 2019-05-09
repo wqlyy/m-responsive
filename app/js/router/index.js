@@ -7,9 +7,21 @@ Vue.use(Router)
 export default new Router({
     routes: [
         {
-            path: "/",
-            name: "Home",
-            component: Home,
-        },
+          path: "/",
+          name: "home",
+          component: Home,
+        },{
+          path: "/money",
+          name: "money",
+          component: Home,
+        },{
+          path: "/ious",
+          name: "ious",
+          component: Home,
+        },{
+          path: "/raise",
+          name: "raise",
+          component: Home,
+        }
     ],
 })
