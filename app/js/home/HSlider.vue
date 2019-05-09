@@ -60,7 +60,7 @@ export default {
 @import '../../css/element.scss';
 .slider{
   margin-top: 120px;
-  height: 273px;
+  // height: 273px;
   img{
     width: 100%;
   }

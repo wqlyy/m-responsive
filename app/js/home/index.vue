@@ -2,17 +2,20 @@
     <div>
        <top-header/>
        <HomeSilder/>
+       <Novice/>
     </div>
 </template>
 
 <script>
 import TopHeader from '../public/header'
 import HomeSilder from './HSlider'
+import Novice from './Novice'
 export default {
   name:"home",
   components:{
     TopHeader,
-    HomeSilder
+    HomeSilder,
+    Novice
   }
 }
 </script>
