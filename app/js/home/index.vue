@@ -3,6 +3,8 @@
        <top-header/>
        <HomeSilder/>
        <Novice/>
+       <Borrow/>
+       <Money/>
     </div>
 </template>
 
@@ -10,12 +12,16 @@
 import TopHeader from '../public/header'
 import HomeSilder from './HSlider'
 import Novice from './Novice'
+import Borrow from './Borrow'
+import Money from './Money'
 export default {
   name:"home",
   components:{
     TopHeader,
     HomeSilder,
-    Novice
+    Novice,
+    Borrow,
+    Money
   }
 }
 </script>
