@@ -1,12 +1,9 @@
 <template>
   <div>
     <top-header/>
-    <HomeSilder/>
-    <Novice/>
-    <Borrow/>
-    <Money/>
-    <Product/>
-    <Life/>
+    <ISilder/>
+    <Welfare/>
+    <Service/>
     <CommonFooter/>
     <NavBar/>
   </div>
@@ -16,29 +13,23 @@
 import TopHeader from '../public/header'
 import CommonFooter from '../public/footer'
 import NavBar from '../public/navbar'
-import HomeSilder from './HSlider'
-import Novice from './Novice'
-import Borrow from './Borrow'
-import Money from './Money'
-import Product from './Product'
-import Life from './Life'
+import ISilder from './ISlider'
+import Welfare from './welfare'
+import Service from './service'
+
 export default {
   name:"home",
   components:{
     TopHeader,
     CommonFooter,
-    HomeSilder,
-    Novice,
-    Borrow,
-    Money,
-    Product,
-    Life,
-    NavBar
+    NavBar,
+    ISilder,
+    Welfare,
+    Service
   }
 }
 </script>
 
 <style lang="scss">
   @import '../../css/reset.scss';
-
 </style>

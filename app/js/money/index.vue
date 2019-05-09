@@ -1,15 +1,15 @@
-<template lang="html">
-    <div>
-       <top-header/>
-       <MoneySilder/>
-       <Ada/>
-       <Money/>
-       <Adb/>
-       <Finance/>
-       <Adc/>
-       <CommonFooter cname="mfooter"/>
-       <NavBar/>
-    </div>
+<template>
+  <div>
+    <top-header/>
+    <MoneySilder/>
+    <Ada/>
+    <Money/>
+    <Adb/>
+    <Finance/>
+    <Adc/>
+    <CommonFooter cname="mfooter"/>
+    <NavBar/>
+  </div>
 </template>
 
 <script>

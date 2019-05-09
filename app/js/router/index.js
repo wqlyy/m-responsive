@@ -1,7 +1,9 @@
 import Vue from "vue"
 import Router from "vue-router"
-import Home from "../home/index.vue"
-import Money from "../money/index.vue"
+import Home from "../home"
+import Money from "../money"
+import Ious from "../ious"
+import Raise from "../raise"
 Vue.use(Router)
 
 export default new Router({
@@ -17,11 +19,11 @@ export default new Router({
         },{
           path: "/ious",
           name: "ious",
-          component: Home,
+          component: Ious,
         },{
           path: "/raise",
           name: "raise",
-          component: Home,
+          component: Raise,
         }, {
           path: "/home",
           name: "home",
