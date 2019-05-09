@@ -26,8 +26,7 @@ export default new Router({
           component: Raise,
         }, {
           path: "/home",
-          name: "home",
-          component: Home,
+          redirect:Home
         }
     ],
 })

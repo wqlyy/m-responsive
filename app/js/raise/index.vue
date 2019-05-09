@@ -1,25 +1,46 @@
 <template>
-  <Panel title="" :class="$style.panel">
-   
-  </Panel>
+  <div>
+    <top-header/>
+    <RSilder/>
+    <Daily/>
+    <In/>
+    <More/>
+    <CommonFooter cname="mfooter"/>
+    <NavBar/>
+  </div>
 </template>
 
 <script>
-import Panel from '../core/panel';
+import TopHeader from '../public/header'
+import CommonFooter from '../public/footer'
+import NavBar from '../public/navbar'
+import RSilder from './rslider'
+import Daily from './daily'
+import In from './in'
+import More from './more'
+
 export default {
-  name:"",
+  name:"home",
   components:{
-    Panel
-  },
-  data() {
-    return {}
-  },
+    TopHeader,
+    CommonFooter,
+    NavBar,
+    RSilder,
+    Daily,
+    In,
+    More
+  }
 }
 </script>
 
-<style lang="scss" module>
- @import "../../css/element.scss";
- .panel{
-   @include panel;
- }
+<style lang="scss">
+  @import '../../css/reset.scss';
+  .mfooter{
+    margin-top: 0!important;
+    ul{
+      li:first-child{
+        display: none
+      }
+    }
+  }
 </style>
