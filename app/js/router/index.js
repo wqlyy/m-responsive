@@ -4,6 +4,7 @@ import Home from "../home"
 import Money from "../money"
 import Ious from "../ious"
 import Raise from "../raise"
+import Download from "../special"
 Vue.use(Router)
 
 export default new Router({
@@ -24,6 +25,9 @@ export default new Router({
           path: "/raise",
           name: "raise",
           component: Raise,
+        },{
+          path:"/download",
+          component:Download
         }, {
           path: "/home",
           redirect:Home
