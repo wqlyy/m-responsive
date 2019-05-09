@@ -1,7 +1,7 @@
 import Vue from "vue"
 import Router from "vue-router"
 import Home from "../home/index.vue"
-
+import Money from "../money/index.vue"
 Vue.use(Router)
 
 export default new Router({
@@ -13,7 +13,7 @@ export default new Router({
         },{
           path: "/money",
           name: "money",
-          component: Home,
+          component: Money,
         },{
           path: "/ious",
           name: "ious",
@@ -21,6 +21,10 @@ export default new Router({
         },{
           path: "/raise",
           name: "raise",
+          component: Home,
+        }, {
+          path: "/home",
+          name: "home",
           component: Home,
         }
     ],

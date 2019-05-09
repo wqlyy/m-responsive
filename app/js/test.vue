@@ -1,25 +1,25 @@
-<template lang="html">
-    <div :class="$style.test">
-        <h1>{{ title }}</h1>
-        <p>abcdef</p>
-    </div>
+<template>
+  <Panel title="" :class="$style.panel">
+   
+  </Panel>
 </template>
 
 <script>
+import Panel from '../core/panel';
 export default {
-    data() {
-        return {
-            title: "abcd",
-        }
-    },
+  name:"",
+  components:{
+    Panel
+  },
+  data() {
+    return {}
+  },
 }
 </script>
 
 <style lang="scss" module>
-  .test{
-    color: red;
-    h1{
-      font-size:40px;
-    }
-  }
+ @import "../../css/element.scss";
+ .panel{
+   @include panel;
+ }
 </style>
