@@ -5,6 +5,7 @@
        <Novice/>
        <Borrow/>
        <Money/>
+       <Product/>
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import HomeSilder from './HSlider'
 import Novice from './Novice'
 import Borrow from './Borrow'
 import Money from './Money'
+import Product from './Product'
 export default {
   name:"home",
   components:{
@@ -21,7 +23,8 @@ export default {
     HomeSilder,
     Novice,
     Borrow,
-    Money
+    Money,
+    Product
   }
 }
 </script>
